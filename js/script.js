@@ -15,7 +15,7 @@ const getData = () => {
             let hr = document.createElement('hr');
 
             pId.innerText = `Post ID: ${data.id}`;
-            pUserId.innerText = `User ID: ${data.userid}`;
+            pUserId.innerText = `User ID: ${data.userId}`;
             pTitle.innerText = `Title: ${data.title}`;
             pBody.innerText = `Body: ${data.body}`;
 
